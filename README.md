@@ -9,6 +9,7 @@ eps32 devkitでみちびき対応のGPSを取得してコンソールに出力�
 UART2を使用した際のピンのTX、RXは
 
 |RX|TX|
+|--|--|
 |GPIO16|GPIO17|
 
 esp32側のRXをGPSのTXと接続、TXをRXとそれぞれ接続する。
